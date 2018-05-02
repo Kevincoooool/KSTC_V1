@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+		INJECTED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:17:22-77
+application
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:19:5-47:19
+	android:label
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:21:9-45
+	android:allowBackup
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:23:9-40
+activity#com.kstc.kstc_v1.MainActivity
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:24:9-33:20
+	android:label
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:26:13-45
+	android:theme
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:25:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:31:27-74
+activity#com.kstc.kstc_v1.ActivityControl
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:34:9-36:80
+	android:theme
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:36:13-77
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:35:13-60
+activity#com.kstc.kstc_v1.WifiSet
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:37:9-39:80
+	android:theme
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:39:13-77
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:38:13-52
+activity#com.kstc.kstc_v1.CarControl
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:40:9-42:80
+	android:theme
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:42:13-77
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:41:13-55
+activity#com.kstc.kstc_v1.YGControl
+ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:43:9-45:80
+	android:theme
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:45:13-77
+	android:name
+		ADDED from F:\Android Prj\KSTC_v1\KSTC_v1\src\main\AndroidManifest.xml:44:13-54

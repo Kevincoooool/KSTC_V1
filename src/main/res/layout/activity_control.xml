@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/control_back"
+    android:orientation="vertical" >
+
+
+    <unit.thr_bar
+        android:id="@+id/thr_bar"
+        android:layout_width="100dp"
+        android:layout_height="74dp"
+        android:alpha="0.4"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btn_yaw_d"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/btn_yaw_a"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/btn_yaw_a"
+        android:text="@string/btn_yaw_d"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/btn_yaw_a" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/btn_yaw_d"
+        android:layout_marginRight="26dp"
+        android:layout_toLeftOf="@+id/btn_yaw_d"
+        android:text="@string/btn_stop"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/btn_yaw_d" />
+
+    <Button
+        android:id="@+id/btn_yaw_a"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="@string/btn_yaw_a"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/thr_bar"
+        android:text="@string/text_acc_y"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/thr_bar"
+        android:text="@string/text_acc_z"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:text="@string/text_gyr_y"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_toRightOf="@+id/thr_bar"
+        android:text="@string/text_gyr_z"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_val_gyr_z"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/text_val_gyr_y"
+        android:text="12345"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_rol"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/text_val_acc_x"
+        android:layout_alignLeft="@+id/text_title_angle"
+        android:layout_alignStart="@+id/text_title_angle" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_pit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:text="@string/text_yaw"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/text_val_pit"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="123.12"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_below="@+id/text_val_rol"
+        android:layout_toRightOf="@+id/text_title_angle"
+        android:layout_toEndOf="@+id/text_title_angle" />
+
+    <TextView
+        android:id="@+id/text_val_yaw"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="123.12"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_alignRight="@+id/text_val_pit"
+        android:layout_alignEnd="@+id/text_val_pit" />
+
+    <TextView
+        android:id="@+id/text_val_rol"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:text="123.12"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_above="@+id/textView9"
+        android:layout_toRightOf="@+id/text_title_angle"
+        android:layout_toEndOf="@+id/text_title_angle" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="油门:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_above="@+id/textView12"
+        android:layout_alignLeft="@+id/text_title_control"
+        android:layout_alignStart="@+id/text_title_control" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_val_pit"
+        android:layout_alignBottom="@+id/text_val_pit"
+        android:layout_alignLeft="@+id/textView11"
+        android:text="航向:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_val_yaw"
+        android:layout_alignBottom="@+id/text_val_yaw"
+        android:layout_alignLeft="@+id/textView12"
+        android:text="横滚:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:text="俯仰:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_col_yaw"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="1500"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_above="@+id/text_col_rol"
+        android:layout_alignLeft="@+id/text_col_thr"
+        android:layout_alignStart="@+id/text_col_thr" />
+
+    <TextView
+        android:id="@+id/text_col_pit"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignLeft="@+id/text_col_rol"
+        android:text="1500"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/text_acc_x"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_col_thr"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="1500"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_above="@+id/text_col_yaw"
+        android:layout_toRightOf="@+id/text_title_control"
+        android:layout_toEndOf="@+id/text_title_control" />
+
+    <TextView
+        android:id="@+id/text_col_rol"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignLeft="@+id/text_col_yaw"
+        android:text="1500"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_title_senser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:text="传感器数据"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_val_acc_x"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="12345"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_val_acc_y"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="12345"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_val_acc_z"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:text="12345"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_val_gyr_y"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_val_gyr_x"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="12345"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_val_gyr_x"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="12345"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_title_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姿态数据"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/text_title_senser"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text_title_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="控制数据"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/text_title_angle"
+        android:layout_toRightOf="@+id/btn_stop"
+        android:layout_toEndOf="@+id/btn_stop" />
+
+    <Button
+        android:id="@+id/btn_suoding"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/btn_stop"
+        android:layout_toLeftOf="@+id/btn_stop"
+        android:text="飞控锁定"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_jias"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btn_suoding"
+        android:layout_toLeftOf="@+id/btn_stop"
+        android:text="飞控解锁"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="7dp"
+        android:text="电压:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_val_votage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_val_gyr_z"
+        android:layout_alignTop="@+id/textView1"
+        android:maxLength="5"
+        android:text="1.123"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="7dp"
+        android:text="@string/text_gyr_x"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="校准飞控"
+        android:textColor="@color/white"
+        android:id="@+id/button_cal_acc"
+        android:layout_above="@+id/btn_stop"
+        android:layout_toRightOf="@+id/btn_jias"
+        android:layout_toEndOf="@+id/btn_jias" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_height"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/text_height"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="123.12"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_alignLeft="@+id/text_val_yaw"
+        android:layout_alignStart="@+id/text_val_yaw"
+        android:layout_alignRight="@+id/text_val_yaw"
+        android:layout_alignEnd="@+id/text_val_yaw" />
+
+    <Switch
+        android:id="@+id/switch_dg"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_yaw_d"
+        android:layout_alignTop="@+id/button_cal_acc"
+        android:layout_toEndOf="@+id/btn_stop"
+        android:layout_toRightOf="@+id/btn_stop"
+        android:text="定高"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        tools:text="定高" />
+
+    <Button
+        android:id="@+id/button_yjqf"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button_yjjl"
+        android:layout_toEndOf="@+id/thr_bar"
+        android:layout_toRightOf="@+id/thr_bar"
+        android:text="一键起飞"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_yjjl"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/thr_bar"
+        android:layout_toRightOf="@+id/thr_bar"
+        android:text="一键降落"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+#Tue Jan 23 15:55:06 CST 2018
+base.0=F\:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

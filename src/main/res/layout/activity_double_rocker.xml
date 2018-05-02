@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/control_back">
+
+	<unit.DoubleRockerView
+	    android:id="@+id/mSurfaceView"
+	    android:layout_width="match_parent"
+	    android:layout_height="400dp"
+		android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/btn_jias"
+		android:id="@+id/btn_jias"
+		android:layout_alignTop="@+id/btn_jt"
+		android:layout_toRightOf="@+id/btn_jt"
+		android:layout_toEndOf="@+id/btn_jt" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/btn_jt"
+		android:id="@+id/btn_jt"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true" />
+
+	<TextView
+		android:id="@+id/text_con_rol1"
+		android:layout_width="55dp"
+		android:layout_height="wrap_content"
+		android:text="123.12"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="@color/white"
+		android:layout_above="@+id/text_val_pit1"
+		android:layout_toLeftOf="@+id/button5"
+		android:layout_toStartOf="@+id/button5" />
+
+	<TextView
+		android:id="@+id/text_con_yaw1"
+		android:layout_width="55dp"
+		android:layout_height="wrap_content"
+		android:text="123.12"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="@color/white"
+		android:layout_alignTop="@+id/textView19"
+		android:layout_toRightOf="@+id/textView19"
+		android:layout_toEndOf="@+id/textView19" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/btn_jies"
+		android:id="@+id/btn_jies"
+		android:layout_alignTop="@+id/btn_jias"
+		android:layout_toRightOf="@+id/btn_jias"
+		android:layout_toEndOf="@+id/btn_jias" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="123.12"
+		android:id="@+id/text_con_pit1"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="123.12"
+		android:id="@+id/text_con_thr1"
+		android:layout_alignTop="@+id/text_con_pit1"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="123.12"
+		android:id="@+id/text_val_pit1"
+		android:layout_below="@+id/textView26"
+		android:layout_toRightOf="@+id/textView20"
+		android:layout_toEndOf="@+id/textView20" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="123.12"
+		android:id="@+id/text_val_rol1"
+		android:layout_below="@+id/text_val_pit1"
+		android:layout_alignLeft="@+id/text_val_yaw1"
+		android:layout_alignStart="@+id/text_val_yaw1" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="123.12"
+		android:id="@+id/text_val_yaw1"
+		android:layout_above="@+id/text_val_height1"
+		android:layout_toRightOf="@+id/btn_jz"
+		android:layout_toEndOf="@+id/btn_jz" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="123.12"
+		android:id="@+id/text_val_height1"
+		android:layout_alignTop="@+id/textView23"
+		android:layout_alignLeft="@+id/text_val_yaw1"
+		android:layout_alignStart="@+id/text_val_yaw1" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="PITCH:"
+		android:id="@+id/textView20"
+		android:layout_below="@+id/text_con_yaw1"
+		android:layout_toLeftOf="@+id/text_val_rol1"
+		android:layout_toStartOf="@+id/text_val_rol1"
+		android:layout_marginRight="22dp"
+		android:layout_marginEnd="22dp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="ROLL:"
+		android:id="@+id/textView21"
+		android:layout_below="@+id/textView20"
+		android:layout_alignLeft="@+id/textView20"
+		android:layout_alignStart="@+id/textView20" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="YAW:"
+		android:id="@+id/textView22"
+		android:layout_below="@+id/textView21"
+		android:layout_alignLeft="@+id/textView21"
+		android:layout_alignStart="@+id/textView21" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="HIGH:"
+		android:id="@+id/textView23"
+		android:layout_below="@+id/textView22"
+		android:layout_alignLeft="@+id/textView22"
+		android:layout_alignStart="@+id/textView22" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="YAW:"
+		android:id="@+id/textView19"
+		android:layout_alignTop="@+id/textView26"
+		android:layout_toRightOf="@+id/btn_jias"
+		android:layout_toEndOf="@+id/btn_jias" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="THR:"
+		android:id="@+id/textView24"
+		android:layout_above="@+id/text_con_thr1"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="PITCH:"
+		android:id="@+id/textView25"
+		android:layout_alignTop="@+id/textView24"
+		android:layout_alignRight="@+id/text_con_pit1"
+		android:layout_alignEnd="@+id/text_con_pit1" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="ROLL:"
+		android:id="@+id/textView26"
+		android:layout_marginTop="30dp"
+		android:layout_alignTop="@+id/mSurfaceView"
+		android:layout_toLeftOf="@+id/text_con_rol1"
+		android:layout_toStartOf="@+id/text_con_rol1" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/btn_jiaozhun"
+		android:id="@+id/btn_jz"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="拍照"
+		android:id="@+id/button2"
+		android:layout_alignParentBottom="true"
+		android:layout_toLeftOf="@+id/button3"
+		android:layout_toStartOf="@+id/button3"
+		android:layout_marginRight="21dp"
+		android:layout_marginEnd="21dp" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="开始录像"
+		android:id="@+id/button3"
+		android:layout_alignParentBottom="true"
+		android:layout_alignRight="@+id/text_con_rol1"
+		android:layout_alignEnd="@+id/text_con_rol1" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="停止录像"
+		android:id="@+id/button5"
+		android:layout_alignTop="@+id/button3"
+		android:layout_alignRight="@+id/text_con_pit1"
+		android:layout_alignEnd="@+id/text_con_pit1" />
+
+</RelativeLayout>
