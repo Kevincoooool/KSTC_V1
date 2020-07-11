@@ -1,0 +1,4 @@
+#Sat Jul 11 18:48:04 GMT+08:00 2020
+base.0=F\:\\Github\\KSTC_V1\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    <declare-styleable name="viewsupport">
+        <attr format="dimension" name="area_radius"/>
+        <attr format="dimension" name="rocker_radius"/>
+        <attr format="color|reference" name="area_background"/>
+        <attr format="color|reference" name="rocker_background"/>
+        <attr format="integer" name="refresh_cycle"/>
+        <attr format="integer" name="callback_cycle"/>
+    </declare-styleable>
+</resources>

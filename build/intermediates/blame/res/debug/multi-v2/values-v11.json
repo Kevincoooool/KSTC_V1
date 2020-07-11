@@ -1,44 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "F:\\Github\\KSTC_V1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\values-v11\\attrs.xml",
                     "from": {
-                        "startLines": "6",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "182",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "316"
+                        "startOffsets": "59",
+                        "endLines": "10",
+                        "endColumns": "24",
+                        "endOffsets": "478"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "5",
                         "startColumns": "4",
-                        "startOffsets": "472",
+                        "startOffsets": "192",
                         "endLines": "12",
-                        "endColumns": "12",
+                        "endColumns": "24",
                         "endOffsets": "604"
                     }
                 },
                 {
-                    "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\values-v11\\attrs.xml",
+                    "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
-                        "startLines": "3",
+                        "startLines": "6",
                         "startColumns": "4",
-                        "startOffsets": "56",
-                        "endLines": "10",
-                        "endColumns": "24",
-                        "endOffsets": "468"
+                        "startOffsets": "183",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "317"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "9",
-                        "endColumns": "24",
-                        "endOffsets": "467"
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
                     }
                 }
             ]

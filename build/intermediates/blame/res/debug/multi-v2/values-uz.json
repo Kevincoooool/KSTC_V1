@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Github\\KSTC_V1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\97354\\.gradle\\wrapper\\dists\\gradle-2.2-all\\1vevkra640w3rb9hkuw50q5we\\gradle-2.2\\caches\\transforms-2\\files-2.1\\ccbd3881d3e597a650ace942161206f5\\support-compat-28.0.0\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

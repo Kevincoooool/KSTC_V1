@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "com.ano_rc.ano_rc_v1"
+        applicationId 'com.kstc'
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 28
     }
 
     buildTypes {
@@ -19,5 +19,23 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
+
+
+    implementation 'com.android.support:support-v4:28.0.0'
+}
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.0'   //last version Jan 2016
+    }
+}
+
+repositories {
+    google()
 }

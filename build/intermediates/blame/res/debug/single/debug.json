@@ -1,98 +1,98 @@
 [
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main22.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\logo_main22.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_back2.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\main_back2.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_back3.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\main_back3.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\layout_activity_wifi_set.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\layout\\activity_wifi_set.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\layout_activity_carcontrol.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\layout\\activity_carcontrol.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main22.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\logo_main22.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main2.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\logo_main2.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_anotc.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\logo_anotc.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\layout_activity_control.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\layout\\activity_control.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\layout_activity_ygcontrol.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\layout\\activity_ygcontrol.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\layout_activity_control.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\layout\\activity_control.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_back.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\main_back.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_back.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\main_back.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_cxybtz.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\logo_cxybtz.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_control_back.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\control_back.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\layout_activity_double_rocker.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\layout\\activity_double_rocker.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\layout_activity_wifi_set.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\layout\\activity_wifi_set.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main_text.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\logo_main_text.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main2.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\logo_main2.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\menu\\main.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_control_back2.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\control_back2.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\layout_activity_double_rocker.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\layout\\activity_double_rocker.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_control_back.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\control_back.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_sarlmoclen_logo_bg.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-mdpi\\sarlmoclen_logo_bg.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_area_bg.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-mdpi\\area_bg.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_area_bg.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-mdpi\\area_bg.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_back2.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\main_back2.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_anotc.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\logo_anotc.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_back3.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\main_back3.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\layout_activity_carcontrol.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\layout\\activity_carcontrol.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_control_back2.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\control_back2.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rocker_bg.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-mdpi\\rocker_bg.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_cxybtz.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\logo_cxybtz.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_sarlmoclen_logo_bg.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\drawable-mdpi\\sarlmoclen_logo_bg.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_main_text.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-hdpi\\logo_main_text.png"
     },
     {
-        "merged": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\res\\merged\\debug\\layout_activity_ygcontrol.xml.flat",
-        "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\layout\\activity_ygcontrol.xml"
+        "merged": "F:\\Github\\KSTC_V1\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rocker_bg.png.flat",
+        "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\drawable-mdpi\\rocker_bg.png"
     }
 ]

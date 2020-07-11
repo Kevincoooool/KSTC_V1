@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "F:\\Github\\KSTC_V1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "F:\\Android Prj\\KSTC_v1\\KSTC_v1\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "F:\\Github\\KSTC_V1\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
-                        "startOffsets": "225",
+                        "startOffsets": "227",
                         "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "373"
+                        "endOffsets": "375"
                     },
                     "to": {
                         "startLines": "2",

@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kstc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="14"
+8-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="28" />
+9-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:9:5-67
+11-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:10:5-68
+12-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:10:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:11:5-74
+13-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:11:22-71
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:13:5-81
+14-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:13:22-78
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:14:5-75
+15-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:14:22-72
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:15:5-80
+16-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:15:22-77
+17
+18    <application
+18-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:17:5-45:19
+19        android:allowBackup="true"
+19-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:18:9-35
+20        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+20-->[com.android.support:support-compat:28.0.0] C:\Users\97354\.gradle\wrapper\dists\gradle-2.2-all\1vevkra640w3rb9hkuw50q5we\gradle-2.2\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+21        android:debuggable="true"
+22        android:icon="@drawable/ic_launcher"
+22-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:19:9-45
+23        android:label="@string/app_name"
+23-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:20:9-41
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:21:9-40
+26        <activity
+26-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:22:9-31:20
+27            android:name="com.kstc.kstc_v1.MainActivity"
+27-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:23:13-57
+28            android:label="@string/app_name"
+28-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:24:13-45
+29            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+29-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:25:13-72
+30            <intent-filter>
+30-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:26:13-30:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:27:17-69
+31-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:27:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:29:17-77
+33-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:29:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:32:9-34:80
+37            android:name="com.kstc.kstc_v1.ActivityControl"
+37-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:33:13-60
+38            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+38-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:34:13-77
+39        <activity
+39-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:35:9-37:80
+40            android:name="com.kstc.kstc_v1.WifiSet"
+40-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:36:13-52
+41            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+41-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:37:13-77
+42        <activity
+42-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:38:9-40:80
+43            android:name="com.kstc.kstc_v1.CarControl"
+43-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:39:13-55
+44            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+44-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:40:13-77
+45        <activity
+45-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:41:9-43:80
+46            android:name="com.kstc.kstc_v1.YGControl"
+46-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:42:13-54
+47            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+47-->F:\Github\KSTC_V1\src\main\AndroidManifest.xml:43:13-77
+48    </application>
+49
+50</manifest>
